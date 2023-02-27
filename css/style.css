@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:lightgray ;
+}
+
+.circulo{
+    border-radius: 50%;
+    border: 3x solid rgb(10, 10, 10);
+}
+
+.headerPrincipal {
+    text-align: center;
+
+}
+
+.container {
+   text-align: center;
+   align-items: center;
+}
+
+.tituloPrincipal {
+    background: rgb(248, 246, 248);
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(10, 9, 9);
+    line-height: 90px;
+    text-transform: uppercase;
+}
+
+.subtitulo {
+    font-size: 30px;
+    color: rgb(10, 9, 9);
+}
+.container2{
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista1 {
+    font-size: 21px;
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0;
+}
+.busqueda{
+    text-align: center;
+    font-size: 25px;
+}
+
+.historia {
+    color:black;
+    text-align: center;
+    padding-top: 15px;
+}
+.estudios {
+    color:black;
+    text-align: center;
+}
+.lista2 {
+    font-size: 22px;
+}
+.lista3 {
+    font-size: 22px;
+}
+.habilidades {
+    color:black;
+    text-align: center;
+}
+
+.lista4 {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+#contacto{
+    font-size: 27px;
+    text-align: center;
+    color: rgb(3, 22, 1);
+}
+
+#listacontacto{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    align-items: center;
+    
+}
+
+#listaContacto-click1, #listaContacto-click2, #listaContacto-click3, #listaContacto-click4, #listaContacto-click5 {
+    border-style: outset;
+    font-size: 25px;
+    padding: 10px;
+    margin-bottom: 5px;
+	color: #262626;
+	background-color: rgb(248, 246, 248);
+	text-decoration: none;
+    border-radius: 20px;
+    margin-left: 3px;
+    margin-right: 3px;
+	
+    }
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.fa-brands {
+    font-size: 30px;
+    margin: 30px;
+}
+.pie{
+    font-size: 18px;
+    text-align: center;
+}
